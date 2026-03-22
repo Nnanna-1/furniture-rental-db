@@ -4,7 +4,7 @@ Overview
 The database models the core operations of a furniture rental company: customers renting individual furniture items across multiple branches, with staff, suppliers, inventory, and membership tracking all linked together.
 The schema was designed from scratch — starting with an ERD, normalised to 3rd Normal Form (3NF), then implemented in Oracle SQL with full referential integrity.
 ERD
-![Entity Relationship Diagram](erd.png)
+![Entity Relationship Diagram](ERD.png)
 
 Schema — Tables & Purpose
 TablePurposeCUSTOMERStores customer personal detailsRENTALSRecords rental transactions per customerFURNITUREHolds furniture product types (e.g. Chair, Table)FURNITURE_ITEMRepresents individual physical items with availability, colour, and sizeSUPPLIERSupplier contact detailsBRANCHESBranch locations and contact infoMEMBERSHIPLinks customers to branches with a join dateINVENTORYTracks stock quantity per furniture type per branchSTAFFStaff records linked to branches with roles and line managers
