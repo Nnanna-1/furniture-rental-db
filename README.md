@@ -10,7 +10,7 @@ The schema was designed from scratch — starting with an ERD, normalised to 3rd
 
 ## ERD
 
-![Entity Relationship Diagram](erd.png)
+![Entity Relationship Diagram](ERD.png)
 
 ## Schema — Tables & Purpose
 
